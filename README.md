@@ -5,4 +5,4 @@ The topic of the website is the OSI Layer Model, and the target audience consist
 
 In this project, I will apply the HTML5, CSS, and JavaScript core web technologies to 
 implement a website. You will also be exposed to the best practice of Separation of Concerns 
-and learn about the Single Responsibility Principle of Software Development and Design.
+and the Single Responsibility Principle of Software Development and Design.
