@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: blue;
+    margin-left: 20px;
+}
+
+p {
+    color: whitesmoke;
+}
+
+footer {
+    color: white;
+    font-size: 0.7em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+/* Unclicked Link */
+a:link {
+    color: purple;
+    display: inline-block;
+    background-color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Clicked Link */
+a:visited {
+    color: red;
+    display: inline-block;
+    background-color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Mouse Over Link */
+a:hover {
+    color: green;
+    display: inline-block;
+    background-color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Link When Selected */
+a:active {
+    color: blue;
+    display: inline-block;
+    background-color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: square;
+    color: white;
+}
+
+.quiz-container {
+    background: #e70d0d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.quiz-container h2 {
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    margin: 0 0 10px;
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    color: yellow;
+    /* Changed the color to yellow */
+}
